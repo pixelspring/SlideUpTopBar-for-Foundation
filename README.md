@@ -26,3 +26,7 @@ Wrap your top-bar in a div with the class "slideUp". You are not restricted to a
     </nav>
     </div>
 ```
+
+## Demo
+View it in action here:  
+[SlideUpTopBar Demo](http://pixelspring.github.io/SlideUpTopBar-for-Foundation/)
