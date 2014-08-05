@@ -1,0 +1,11 @@
+/*
+SlideUpTopBar for Foundation styles
+*/
+
+.slideUp {
+    position: fixed;
+    top: 0;
+    transition: top 0.4s ease-in-out;
+    width: 100%;
+    z-index: 999;
+}
