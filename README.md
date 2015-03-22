@@ -11,7 +11,7 @@ Include `sup-topbar.min.js` after your Foundation scripts:
 
 ```
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="scroll-up-bar.min.js"></script>
+    <script src="sup-topbar.min.js"></script>
     <link rel="stylesheet" href="css/sup-styles.css" />
 
 ```
