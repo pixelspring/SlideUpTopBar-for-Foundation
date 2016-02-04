@@ -1,6 +1,5 @@
 #SlideUpTopBar for Foundation
-
-SlideUpTopBar is an extension for Zurb Foundation 5's top-bar component. It hides the top-bar when scrolling down a page & shows it when scrolling back up the page.
+SlideUpTopBar is an extension for Zurb Foundation's top-bar component. It hides the top-bar when scrolling down a page & shows it when scrolling back up the page.
 
 ## Installation
 Include jQuery (which you already have if you are using Foundations top-bar component)
@@ -27,6 +26,12 @@ Wrap your top-bar in a div with the class "slideUp". You are not restricted to a
     </div>
 ```
 
+## Compatibility
+Tested with:
+- Foundation 5
+- Foundation 6 [Standard Grid](http://foundation.zurb.com/sites/docs/grid.html)
+- Foundation 6 [Flex Grid](http://foundation.zurb.com/sites/docs/flex-grid.html)
+
 ## Demo
-View it in action here:  
+View it in action here:
 [SlideUpTopBar Demo](http://pixelspring.github.io/SlideUpTopBar-for-Foundation/)
