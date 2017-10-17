@@ -1,7 +1,8 @@
 // ---------------------------------------------------------------
-// SlideUp for Foundation top-bar
+// SlideUpTopBar for Foundation top-bar
 // ---------------------------------------------------------------
 
+var $window = $(window);
 var didScroll;
 var lastScrollTop = 0;
 var scrollAmount = 10;          // Value of scroll amount
@@ -19,11 +20,14 @@ setInterval(function() {
 }, 250);
 
 function hasScrolled() {
-    var sup = $(this).scrollTop();
+    
+    "use strict";
+    
+    var sup = $(window).scrollTop();
 
     if (sup > lastScrollTop && sup > navbarHeight){
         // On Scroll Down
-        $('.slideUp').css({top: -$(this).outerHeight()});
+        $('.slideUp').css({top: -$(window).outerHeight()});
     } else {
         // On Scroll Up
         if(sup + $(window).height() < $(document).height()) {
@@ -32,4 +36,5 @@ function hasScrolled() {
     }
 
     lastScrollTop = sup;
+    
 }
