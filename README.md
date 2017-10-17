@@ -1,4 +1,4 @@
-#SlideUpTopBar for Foundation
+# SlideUpTopBar for Foundation
 SlideUpTopBar is an extension for Zurb Foundation's top-bar component. It hides the top-bar when scrolling down a page & shows it when scrolling back up the page.
 
 ## Installation
