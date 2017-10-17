@@ -25,6 +25,8 @@ function hasScrolled() {
     
     var sup = $(window).scrollTop();
 
+    if(Math.abs(lastScrollTop - sup) <= scrollAmount) return;
+
     if (sup > lastScrollTop && sup > navbarHeight){
         // On Scroll Down
         $('.slideUp').css({top: -$(window).outerHeight()});
@@ -36,5 +38,5 @@ function hasScrolled() {
     }
 
     lastScrollTop = sup;
-    
+
 }
